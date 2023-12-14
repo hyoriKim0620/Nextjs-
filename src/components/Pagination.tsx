@@ -4,6 +4,7 @@ import React from "react";
 import Link from "next/link";
 import { PRODUCTS_PER_PAGE } from "@/constants";
 import { useSearchParams } from "next/navigation";
+//@ts-ignore
 import usePagination from "@lucasmogari/react-pagination";
 import PaginationLink from "./PaginationLink";
 
