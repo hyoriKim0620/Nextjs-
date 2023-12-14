@@ -48,7 +48,7 @@
     "typescript": "^5"
   },
   "engines": {
-    "node": "14.0",
+    "node": "14.x",
     "next": "14.0.3"
   }
 }
