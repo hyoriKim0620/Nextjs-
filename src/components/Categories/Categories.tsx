@@ -1,7 +1,8 @@
 "use client";
 
-import React from "react";
+import React, { useEffect } from "react";
 import { useSearchParams } from "next/navigation";
+import { useRouter } from "next/navigation";
 import { TbBeach, TbMountain, TbPool } from "react-icons/tb";
 import { GiBoatFishing, GiIsland, GiWindmill } from "react-icons/gi";
 import { FaSkiing } from "react-icons/fa";
